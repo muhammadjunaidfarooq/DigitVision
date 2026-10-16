@@ -1,0 +1,11 @@
+# Virtual environments
+digitvision_env/
+.venv/
+digitvision/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
