@@ -1,21 +1,20 @@
-# Python
+# Python cache and build artifacts
 __pycache__/
 *.py[cod]
 *.egg-info/
 
 # Virtual environments
-digitvision_env/
-.digitvision_env/
 .venv/
 venv/
 env/
+digitvision_env/
 
 # Jupyter
 .ipynb_checkpoints/
 
-# Local environment and editor files
+# Secrets and local configuration
 .env
-.vscode/
+.streamlit/secrets.toml
 
-# Generated model and report artifacts
-# Keep these locally; decide separately whether to version them.
+# Editor settings
+.vscode/
